@@ -11,16 +11,17 @@
   <body>
     <div class="container">
       <h1>Eratosthenes</h1>
+      <div class="form">
+        <form id="prime-finder">
+          <div class="form-group">
+            <label for="number">Enter the number to count to:</label>
+            <input id="number" type="text" class="form-control" required>
+          </div>
 
-      <form id="prime-finder">
-        <div class="form-group">
-          <label for="number">Enter the number to count to:</label>
-          <input id="number" type="text" class="form-control">
-        </div>
+          <button type="submit" class="btn btn-success">Find Prime Numbers</button>
+        </form>
+      </div>
 
-        <button type="submit" class="btn btn-success">Find Prime Numbers</button>
-      </form>
-      <br>
       <div id="result">
         <p><strong>Prime Numbers:</strong> <span class="prime-numbers"></span></p>
       </div>

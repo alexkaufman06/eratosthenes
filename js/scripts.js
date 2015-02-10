@@ -21,3 +21,16 @@ var prime = function(upperLimit) {
   });
   return primes;
 };
+
+$(document).ready(function() {
+  $("form#prime-finder").submit(function(event) {
+
+    var number = parseInt($("input#number").val());
+    var answer = prime(number).join(", ");
+
+    $(".prime-numbers").text(answer);
+    $("#result").show();
+
+    event.preventDefault();
+  });
+});

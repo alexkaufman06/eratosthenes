@@ -1,5 +1,5 @@
-# Satans Bank
-This is an app that allows you to create a bank account and deposit or withdrawl from that account.
+# Eratosthenes
+This is an app that allows the user to enter a number and it will then output every prime number counting up to the number entered.
 ## Setup Instructions:
 ```
 Clone repository and open the index.html file.
@@ -12,6 +12,6 @@ Clone repository and open the index.html file.
 None known
 ```
 ### Author:
-Alex Kaufman and Arsi
+Alex Kaufman and Luke Chinworth
 #### License
 MIT

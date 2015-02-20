@@ -5,7 +5,7 @@ This is an app that allows the user to enter a number and it will then output ev
 Clone repository and open the index.html file.
 ```
 
-[View site here](http://htmlpreview.github.io/?https://github.com/alexkaufman06/eratosthenes/blob/master/index.html)
+[View site here](http://alexkaufman06.github.io/eratosthenes/)
 
 ### Bug Reports:
 ```
